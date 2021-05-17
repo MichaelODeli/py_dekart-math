@@ -12,10 +12,10 @@ newans=str(newans)
 print(newans+"*a^2") #искомый интеграл - площадь фигуры
 
 # graph
-fig = matplotlib.pyplot.figure(figsize=(8., 6.)) # определяем область построения
-phi = numpy.arange(0, 3, 0.001) # значения для фи - от, до, шаг
-rho = (3 * numpy.sin(phi) * numpy.cos(phi))/(((numpy.sin(phi))**3)*((numpy.cos(phi))**3)) # первый график
-ax1 = fig.add_subplot(projection='polar') # определяем область построения как полярная система координат
-ax1.plot(rho, phi) # строим графики
-ax1.grid(True) # отображаем на рисунке сетку
-matplotlib.pyplot.show() # выводим изображение
+# fig = matplotlib.pyplot.figure(figsize=(8., 6.)) # определяем область построения
+# phi = numpy.arange(0, 3, 0.001) # значения для фи - от, до, шаг
+# rho = (3 * numpy.sin(phi) * numpy.cos(phi))/(((numpy.sin(phi))**3)*((numpy.cos(phi))**3)) # первый график
+# ax1 = fig.add_subplot(projection='polar') # определяем область построения как полярная система координат
+# ax1.plot(rho, phi) # строим графики
+# ax1.grid(True) # отображаем на рисунке сетку
+# matplotlib.pyplot.show() # выводим изображение
