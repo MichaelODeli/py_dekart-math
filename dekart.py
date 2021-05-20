@@ -11,7 +11,7 @@ newans=round(-1*(newans*9), 1) # меняем знак ввиду некорре
 newans=str(newans)
 print(newans+"*a^2") #искомый интеграл - площадь фигуры
 
-# graph
+# # graph
 # fig = matplotlib.pyplot.figure(figsize=(8., 6.)) # определяем область построения
 # phi = numpy.arange(0, 3, 0.001) # значения для фи - от, до, шаг
 # rho = (3 * numpy.sin(phi) * numpy.cos(phi))/(((numpy.sin(phi))**3)*((numpy.cos(phi))**3)) # первый график
